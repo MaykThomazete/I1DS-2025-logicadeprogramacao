@@ -18,7 +18,7 @@ const podeVotar = (idade) => {
     return "voto facultativo";
   }
 };
-var nome = ["ygona", "Batata", "fernanda", "kelly SAFADA","erick"];
+var nome = ["ygona", "Batata", "fernanda", "kelly","erick"];
 
 console.log("olá", nome[0], "voce tem 16 anos e", podeVotar(16));
 console.log("olá", nome[1], "voce tem 22 anos e", podeVotar(22));

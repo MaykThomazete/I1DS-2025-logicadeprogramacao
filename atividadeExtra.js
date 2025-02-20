@@ -65,21 +65,35 @@ numeros[2] = numeros[2] + 2;
 numeros[3] = numeros[3] + 2;
 numeros[4] = numeros[4] + 2;
 numeros[5] = numeros[5] + 2;
-console.log(numeros)
+console.log(numeros);
 //********************************** */
-var tabuada = 5
-console.log(tabuada, "x 1 = 5",tabuada*1);
-console.log(tabuada, "x 1 = 5",tabuada*2);
-console.log(tabuada, "x 1 = 5",tabuada*3);
-console.log(tabuada, "x 1 = 5",tabuada*4);
-console.log(tabuada, "x 1 = 5",tabuada*5);
-console.log(tabuada, "x 1 = 5",tabuada*6);
-console.log(tabuada, "x 1 = 5",tabuada*7);
-console.log(tabuada, "x 1 = 5",tabuada*8);
-console.log(tabuada, "x 1 = 5",tabuada*9);
-console.log(tabuada, "x 1 = 5",tabuada*10);
+var tabuada = 5;
+console.log(tabuada, "x 1 = 5", tabuada * 1);
+console.log(tabuada, "x 1 = 5", tabuada * 2);
+console.log(tabuada, "x 1 = 5", tabuada * 3);
+console.log(tabuada, "x 1 = 5", tabuada * 4);
+console.log(tabuada, "x 1 = 5", tabuada * 5);
+console.log(tabuada, "x 1 = 5", tabuada * 6);
+console.log(tabuada, "x 1 = 5", tabuada * 7);
+console.log(tabuada, "x 1 = 5", tabuada * 8);
+console.log(tabuada, "x 1 = 5", tabuada * 9);
+console.log(tabuada, "x 1 = 5", tabuada * 10);
 
 //3. fatorial de um numeros
-console.log("fatorial de 5! =!",5 *4 * 3 * 2 * 1);
+console.log("fatorial de 5! =!", 5 * 4 * 3 * 2 * 1);
 //4
 
+const imparpar = (num) => {
+  return num % 2 == 0 ? "o numero é par!" : "o numero é impar!";
+};
+console.log(imparpar(10));
+console.log(imparpar(3));
+console.log(imparpar(2));
+
+var numeros = [10, 20, 30, 40];
+var soma = numeros[0] + numeros[1] + numeros[2] + numeros[3];
+console.log(soma);
+
+const orderNumero = [8, 3, 5, 1, 9];
+console.log(orderNumero);
+console.log(orderNumero.sort());
