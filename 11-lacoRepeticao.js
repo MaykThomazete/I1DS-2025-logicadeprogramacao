@@ -69,9 +69,51 @@ var matriz = [
 for (let linha = 0; linha < matriz.length; linha++) {
   for (let coluna = 0; coluna < matriz[0].length; coluna++) {
     //console.log("matriz[", linha, "][", coluna, "]", matriz[linha][coluna]);
-    console.log(`matriz[${linha} ][${coluna}] = ${matriz [linha][coluna]}`)
+    console.log(`matriz[${linha} ][${coluna}] = ${matriz[linha][coluna]}`);
   }
 }
 
 //laço repetição - while / do While
+//---------------------------laço repetição - while / do While--------------------------------
+//testa a condição antes de entrar no laco de repetição
+//se a condição for inicialmente falsa, o laço não é executado nenhuma vez.
+var t = 10;
 
+while (t >= 10) {
+  console.log("entrei no laço While...");
+  t = 0;
+}
+console.log("terminei!");
+
+//Exemplo de White com escrita de 1000 linhas
+var i = 0;
+while (i <= 100) {
+  console.log(`Escrita de linha ${i}`);
+  i++;
+}
+
+//laço repetição While
+// while(condição){
+//  fragmento de codigo
+//  fragmento de codigo
+//  fragmento de codigo
+// contador ++ | nesta parte o computador e variavel de controle de acesso
+// }
+//exemplo que funciona somente no navegador
+//var senhaCorreta = "1234";
+//var te//ntativa = "";
+//whil//e(tentativa !== senhaCorreta) {
+//tentativa = prompt("digite a senha:");
+//}
+//console.log("acesso concedido");
+
+// Do while testa a condição somente no final do laço de repetição.
+//sendo assim qualquer que seja a condição, o laço é executado pelo menos uma vez
+var x = 10;
+
+do {
+  console.log("entrei no laço do-white...");
+  x = 0;
+} while (x > 10);
+
+console.log("terminei!");
