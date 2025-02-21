@@ -14,6 +14,6 @@ var matriz = [
   [7, 1, 4],
 ];
 var diagonal = 3
-var numeros = 0
+var matriz = 0
 console.table(matriz);
 
