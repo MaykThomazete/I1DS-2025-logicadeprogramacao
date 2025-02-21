@@ -73,3 +73,5 @@ for (let linha = 0; linha < matriz.length; linha++) {
   }
 }
 
+//laço repetição - while / do While
+
